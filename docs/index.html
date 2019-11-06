@@ -9,15 +9,17 @@
     <h1>Számológép</h1>
     <p>Ez egy számológép. Csak nem működik.</p>
     <form>
+        <div>
     <input name="a" />
         +
         <input name="b" />
         <input type="submit" value="Számolj!"
     id="submit-button"/>
-
-        <p>Eredmény</p>
-        <input name="c" value="">
-
+        </div>
+        <div>
+        <p>Eredmény:</p>
+        <input name="result" readonly="true" id="result-input"/>
+        </div>
 
     </form>
 </body>
